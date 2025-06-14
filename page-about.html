@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- JS -->
+    <script src="assets/libs/js/jquery/jquery-3.7.1.min.js"></script>
+    <script src="assets/libs/js/jquery/jquery-ui.min.js"></script>
+    <script src="assets/libs/js/gsap/gsap.js"></script>
+    <script src="assets/libs/js/gsap/TweenMax.js"></script>
+    <script src="assets/libs/js/gsap/scroll-triger.js"></script>
+    <script src="assets/libs/js/gsap/CustomEase.min.js"></script>
+    <script src="assets/libs/js/gsap/DrawSVGPlugin.min.js"></script>
+    <script src="assets/libs/js/mega-menu/mega-menu.js"></script>
+    <script src="assets/libs/js/mega-menu/mega-menu-start.js"></script>
+    <script src="assets/libs/js/nice-select/NiceSelect.js"></script>
+    <script src="assets/libs/js/swiper/swiper.js"></script>
+    <script src="assets/libs/js/ScrollMagic/ScrollMagic.js"></script>
+    <script src="assets/libs/js/ScrollMagic/animation.gsap.js"></script>
+    <script src="assets/libs/js/fancybox/fancybox.js"></script>
+    <script src="assets/libs/js/lazysizes/lazysizes.js"></script>
+
+    <script src="assets/js/main-js.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/libs/css/jquery/jquery-ui.css">
+    <link rel="stylesheet" href="assets/libs/css/swiper/swiper.css">
+    <link rel="stylesheet" href="assets/libs/css/nice-select/nice-select.css">
+    <link rel="stylesheet" href="assets/fonts/custom-icom-font/css/templines-custom-icon.css">
+    <link rel="stylesheet" href="assets/css/general.css">
+</head>
+
+<body>
+    <div class="templines-main-wrap">
+
+        <!-- Header -->
+       <header class="templines-header header-style-one header-style-dark">
+    <div class="top-header-content-wrap">
+        <div class="entry-header-top-content">
+            <div class="left-header-top-content">
+                <div class="header-contact-info">
+                    <span class="email-info"><a class="email-link" href="mailto:example.info@gmail.com">example.info@gmail.com</a></span>
+                    <span class="separator-contact-info">/</span>
+                    <span class="phone-info"><a class="phone-link templines-color-primary" href="tel:(1)245-45678">(480) 555-0103 call</a></span>
+                </div>
+            </div>
+            <div class="right-header-top-content">
+                <div class="additional-information-wrap">
+                    <div class="top-header-link-wrap"><a href="#">Help center</a></div>
+                    <div class="top-header-changer-lang-wrap">
+                        <div class="lang-changer-wrap">
+                            <a href="#" class="active-lang">English 
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.4" d="M1 1L5 5L9 1" stroke="#181A20"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="login-header-wrap">
+                    <div class="login-btn-wrap">
+                        <span class="text-login"><a href="#">Sign In</a> <span class="divider-links">/</span> <a href="#">Sign Up</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-header-content-wrap">
+        <div class="entry-header-bottom-content">
+            <div class="site-logotype-wrap">
+                <a href="index.html"><img src="assets/image/logo.png" width="137" height="40" alt="site-logotype" loading="lazy"></a>
+            </div>
+
+            <div class="navigation-site-wrap">
+                <nav class="fl-mega-menu nav-menu" role="navigation">
+                    <ul id="menu-main-menu" class="menu nav-menu">
+                        <li class="nav-item menu-item-depth-0">
+                            <a href="index.html" class="menu-link main-menu-link item-title">Home</a>
+                        </li>
+                        <li class="nav-item menu-item-depth-0">
+                            <a href="page-about.html" class="menu-link main-menu-link item-title">About</a>
+                        </li>
+                        <li class="nav-item menu-item-depth-0">
+                            <a href="page-team.html" class="menu-link main-menu-link item-title">Team</a>
+                        </li>
+                        <li class="nav-item menu-item-depth-0">
+                            <a href="page-gallery.html" class="menu-link main-menu-link item-title">Gallery</a>
+                        </li>
+                        <li class="nav-item menu-item-depth-0">
+                            <a href="page-contact.html" class="menu-link main-menu-link item-title">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <span class="mobile-menu-btn" style="display: none;"><span></span></span>
+            </div>
+
+            <div class="button-site-wrap">
+                <div class="header-btn-wrap">
+                    <a class="templines-default-btn-style templines-border-dark-btn-style templines-small-btn-style" href="page-contact.html">
+                        <div><span data-hover-text="Contact Us">Contact Us</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <!-- Main Screen Header -->
+        <div class="main-screen-header" style="background-image: url('assets/image/About Us Header bg-min.jpg');background-size: cover;">
+            <div class="header-img-mask"></div>
+            <div class="entry-main-screen-content">
+                <div class="templines-container">
+                    <div class="templines-row">
+                        <div class="col-12">
+                            <div class="header-screen-title-wrap">
+                                <h2 class="main-screen-title">About Us</h2>
+                            </div>
+                            <div class="breadcrumbs-heading">
+                                <div class="breadcrumbs">
+                                    <a href="#" class="breadcrumbs-item">Home</a><span class="breadcrumbs-delimiter"></span><span class="breadcrumbs-item">About Us</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Us -->
+        <div class="templines-about-us-content">
+            <div class="gap-100"></div>
+            <div class="templines-container">
+                <div class="templines-row">
+                    <div class="col-9 col-md-12">
+                        <div class="templines-title-content-wrap">
+                            <div class="templines-pre-title">About Us</div>
+                            <h2 class="templines-title">Here Are Some Compelling Title Ideas For The "About" Section Of A Single Property In Real Estate</h2>
+                        </div>
+                    </div>
+                    <div class="col-3 text-right col-md-12 text-center-md">
+                        <div class="templines-decor-rotate-img-wrap">
+                            <div class="entry-decor-rotate-content">
+                                <div class="logotype-rotate-img">
+                                    <img src="assets/image/logotype-rotate-block-img-min.png" width="122" height="122" alt="rotate-logotype-img" loading="lazy">
+                                </div>
+                                <div class="rotate-text-img">
+                                    <img src="assets/image/rotate-text-rotate-block-min.png" width="181" height="181" alt="rotate-text-img" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-md-12">
+                        <div class="gap-50 gap-lg-40"></div>
+                        <img src="assets/image/about-us-section-img-min.png" width="525" height="560" alt="about-us-img-one" loading="lazy">
+                    </div>
+                    <div class="col-7 col-md-12">
+                        <div class="templines-row">
+                            <div class="col-2 hidden-md"></div>
+                            <div class="col-10 col-md-12">
+                                <div class="gap-100 hidden-md"></div>
+                                <div class="gap-60 gap-lg-40"></div>
+                                <div class="about-us-text-section">
+                                    Welcome to the Resident Lounge at Tostate, where comfort and community come together. Our resident lounge designed to be a versatile and inviting space for all our residents.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="gap-50"></div>
+                                <div class="about-us-img-two text-right">
+                                    <img src="assets/image/about-us-section-img-two-min.png" width="440" height="200" alt="about-us-img-one" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap-100"></div>
+        </div>
+
+        <!-- Brands -->
+        <div class="templines-brands-container">
+            <div class="templines-container">
+                <div class="templines-row">
+                    <div class="col-12">
+                        <div class="templines-line-title-wrap">
+                            <div class="templines-line-title-container">
+                                <h2 class="temlines-line-title">Professional Brands</h2>
+                                <span class="teplines-title-line"></span>
+                            </div>
+                        </div>
+                        <div class="gap-50"></div>
+                        <div class="templines-brand-item-wrapper">
+                            <div class="brand-items-wrapper">
+                                <div class="col-2 brand-slider-item col-lg-4 col-md-6">
+                                    <div class="entry-brand-item-content">
+                                        <a href="#" class="brand-slider-item-link">
+                                            <img src="assets/image/brand/brand-img-one-min.png" alt="band-item-img" loading="lazy">
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="col-2 brand-slider-item col-lg-4 col-md-6">
+                                    <div class="entry-brand-item-content">
+                                        <a href="#" class="brand-slider-item-link">
+                                            <img src="assets/image/brand/brand-img-two-min.png" alt="band-item-img" loading="lazy">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-2 brand-slider-item col-lg-4 col-md-6">
+                                    <div class="entry-brand-item-content">
+                                        <a href="#" class="brand-slider-item-link">
+                                            <img src="assets/image/brand/brand-img-three-min.png" alt="band-item-img" loading="lazy">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-2 brand-slider-item col-lg-4 col-md-6">
+                                    <div class="entry-brand-item-content">
+                                        <a href="#" class="brand-slider-item-link">
+                                            <img src="assets/image/brand/brand-img-four-min.png" alt="band-item-img" loading="lazy">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-2 brand-slider-item col-lg-4 col-md-6">
+                                    <div class="entry-brand-item-content">
+                                        <a href="#" class="brand-slider-item-link">
+                                            <img src="assets/image/brand/brand-img-five-min.png" alt="band-item-img" loading="lazy">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-2 brand-slider-item col-lg-4 col-md-6">
+                                    <div class="entry-brand-item-content">
+                                        <a href="#" class="brand-slider-item-link">
+                                            <img src="assets/image/brand/brand-img-six-min.png" alt="band-item-img" loading="lazy">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gap-50"></div>
+                            <div class="brand-decor-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap-100"></div>
+        </div>
+
+        <!-- Testimonial -->
+        <div class="templines-testimonial-container" style="background: var(--dark-color);">
+            <div class="gap-100"></div>
+            <div class="templines-container">
+                <div class="templines-row">
+                    <div class="col-12">
+                        <div class="templines-title-bordered-content-wrap text-center">
+                            <h2 class="templines-bordered-title">What Client Says?</h2>
+                        </div>
+                        <div class="gap-50"></div>
+                        <div class="templines-testimonial-slider-wrap">
+                            <div class="templines-testimonial-slider testimonial-slider-style-two">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide testimonial-slider-item templines-slider-item-dark-style">
+                                        <div class="entry-testimonial-slider-item-content">
+                                            <div class="testimonial-top-info-wrap">
+                                                <div class="testimonial-img-wrap">
+                                                    <img src="assets/image/testimonial-img/testimonial-ava-dark-one-min.jpg" width="61" height="61" alt="" loading="lazy">
+                                                </div>
+                                                <div class="testimonial-name-and-info-text">
+                                                    <h6 class="testimonial-name">Alex Sunmon</h6>
+                                                    <div class="testimonial-after-title-info">CEO, <a href="">Tostate</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-text-content templines-font-style-h">
+                                                We purchased a property through your website, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.
+                                            </div>
+                                            <div class="testimonial-bottom-info-wrap">
+                                                <div class="logo-rating-content">
+                                                    <div class="testimonial-logotype">
+                                                        <img src="assets/image/testimonial-img/testimonial-logotype-dark-style-min.png" width="117" height="auto" alt="" loading="lazy">
+
+                                                    </div>
+                                                    <div class="testimonial-rating">
+                                                        <div class="rating-container" style="--percent: 70%">
+                                                            <div class="rating-container">
+                                                                <div class="star-container yellow-star-container">
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="star-container grey-star-container">
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-decor-line"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide testimonial-slider-item templines-slider-item-dark-style">
+                                        <div class="entry-testimonial-slider-item-content">
+                                            <div class="testimonial-top-info-wrap">
+                                                <div class="testimonial-img-wrap">
+                                                    <img src="assets/image/testimonial-img/testimonial-logotype-dark-style-two-min.png" width="61" height="61" alt="" loading="lazy">
+                                                </div>
+                                                <div class="testimonial-name-and-info-text">
+                                                    <h6 class="testimonial-name">John Mitchell</h6>
+                                                    <div class="testimonial-after-title-info">CEO, <a href="">Tostate</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-text-content templines-font-style-h">
+                                                We rented an apartment through your site – the whole process was smooth and hassle-free. The listings were clear, and we easily found the perfect place.
+                                            </div>
+                                            <div class="testimonial-bottom-info-wrap">
+                                                <div class="logo-rating-content">
+                                                    <div class="testimonial-logotype">
+                                                        <img src="assets/image/testimonial-img/testimonial-logotype-dark-style-min.png" width="117" height="auto" alt="" loading="lazy">
+
+                                                    </div>
+                                                    <div class="testimonial-rating">
+                                                        <div class="rating-container" style="--percent: 80%">
+                                                            <div class="rating-container">
+                                                                <div class="star-container yellow-star-container">
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="star-container grey-star-container">
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-decor-line"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide testimonial-slider-item templines-slider-item-dark-style">
+                                        <div class="entry-testimonial-slider-item-content">
+                                            <div class="testimonial-top-info-wrap">
+                                                <div class="testimonial-img-wrap">
+                                                    <img src="assets/image/testimonial-img/testimonial-logotype-dark-style-three-min.png" width="61" height="61" alt="" loading="lazy">
+                                                </div>
+                                                <div class="testimonial-name-and-info-text">
+                                                    <h6 class="testimonial-name">David Carter</h6>
+                                                    <div class="testimonial-after-title-info">CEO, <a href="">Tostate</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-text-content templines-font-style-h">
+                                                Leasing a commercial space was seamless. The site provided all the details we needed, and the communication with the landlord was efficient. Excellent service!
+                                            </div>
+                                            <div class="testimonial-bottom-info-wrap">
+                                                <div class="logo-rating-content">
+                                                    <div class="testimonial-logotype">
+                                                        <img src="assets/image/testimonial-img/testimonial-logotype-dark-style-min.png" width="117" height="auto" alt="" loading="lazy">
+
+                                                    </div>
+                                                    <div class="testimonial-rating">
+                                                        <div class="rating-container" style="--percent: 100%">
+                                                            <div class="rating-container">
+                                                                <div class="star-container yellow-star-container">
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="star-container grey-star-container">
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-decor-line"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide testimonial-slider-item templines-slider-item-dark-style">
+                                        <div class="entry-testimonial-slider-item-content">
+                                            <div class="testimonial-top-info-wrap">
+                                                <div class="testimonial-img-wrap">
+                                                    <img src="assets/image/testimonial-img/testimonial-logotype-dark-style-four-min.png" width="61" height="61" alt="" loading="lazy">
+                                                </div>
+                                                <div class="testimonial-name-and-info-text">
+                                                    <h6 class="testimonial-name">Laura Bennett</h6>
+                                                    <div class="testimonial-after-title-info">CEO, <a href="">Tostate</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-text-content templines-font-style-h">
+                                                Buying an apartment was straightforward and transparent. The listings were accurate, and we felt confident throughout the entire transaction. Great experience!"
+                                            </div>
+                                            <div class="testimonial-bottom-info-wrap">
+                                                <div class="logo-rating-content">
+                                                    <div class="testimonial-logotype">
+                                                        <img src="assets/image/testimonial-img/testimonial-logotype-dark-style-min.png" width="117" height="auto" alt="" loading="lazy">
+
+                                                    </div>
+                                                    <div class="testimonial-rating">
+                                                        <div class="rating-container" style="--percent: 80%">
+                                                            <div class="rating-container">
+                                                                <div class="star-container yellow-star-container">
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                    <i class="templines-custom-icon-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="star-container grey-star-container">
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                                <i class="templines-custom-icon-star"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-decor-line"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap-100"></div>
+        </div>
+
+        <!-- Project Residence  -->
+        <div class="templines-project-residence-container" style="background: var(--dark-color)!important;">
+            <div class="gap-100 hidden-lg"></div>
+            <div class="templines-container">
+                <div class="templines-row revers-column-lg">
+                    <div class="col-6 col-lg-12">
+                        <div class="gap-100"></div>
+                        <div class="templines-title-content-wrap light-style-title" style="padding-right: 30px">
+                            <h2 class="templines-title">Fine The Most VIP Project Residence Near You Now!</h2>
+                        </div>
+                        <div class="gap-50"></div>
+                        <div class="templines-row">
+                            <div class="col-5">
+                                <div class="counter-style-one templines-counter templines-counter-light-style" data-count-to="90" data-count-interval="1" data-animation-counter="2000">
+                                    <div class="entry-counter-content">
+                                        <div class="counter-number-wrap">
+                                            <span class="counter-number">90</span>
+                                            <span class="after-counter-content">%</span>
+                                        </div>
+                                        <div class="after-counter-text-content">
+                                            Resources 3+ years experienced.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="counter-style-one templines-counter  counter-with-border-left templines-counter-light-style" data-count-to="85" data-count-interval="1" data-animation-counter="2000">
+                                    <div class="entry-counter-content">
+                                        <div class="counter-number-wrap">
+                                            <span class="counter-number">85</span>
+                                            <span class="after-counter-content">%</span>
+                                        </div>
+                                        <div class="after-counter-text-content">
+                                            Customer loyalty percentage rate.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gap-50"></div>
+                        <div class="section-btn-wrap">
+                            <a class="templines-default-btn-style templines-primary-btn-style templines-small-btn-style" href="#">
+                                <div><span data-hover-text="Add Property +">Add Property +</span></div>
+                            </a>
+                            <a class="templines-default-btn-style templines-border-light-btn-style templines-small-btn-style" href="#"><span class="svg-icon-wrap-left"><svg id="fi_9073187" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g id="Layer_2_00000070827265553928813150000015508787529661124756_"><g id="Layer_1-2"><path id="_12.Play" d="m22.4 256v-166.3c0-68.9 74.6-112 134.2-77.5l144.1 83.2 144.1 83.2c59.7 34.4 59.7 120.6 0 155l-144.1 83.2-144.1 83.2c-59.6 34.3-134.2-8.7-134.2-77.6z"></path></g></g></svg></span><div><span data-hover-text="Play Video">Play Video</span></div></a>
+                        </div>
+                        <div class="gap-100"></div>
+                    </div>
+                    <div class="col-6 text-center col-lg-12">
+                        <img src="assets/image/map--section-img-dark-min.png" width="637" height="528" alt="about-us-img-one" loading="lazy">
+                    </div>
+                </div>
+            </div>
+            <div class="gap-100 hidden-lg"></div>
+        </div>
+        <!-- Team -->
+        <div class="templines-team-container">
+            <div class="gap-100"></div>
+            <div class="templines-container">
+                <div class="templines-row">
+                    <div class="col-12">
+                        <div class="templines-title-content-wrap text-center">
+                            <h2 class="templines-title">Meet Our Real Estate Team</h2>
+                            <div class="templines-after-title-text-content">
+                                Explore beautiful rental homes in vibrant cities tailored to your lifestyle needs.
+                            </div>
+                        </div>
+                        <div class="gap-50"></div>
+                        <div class="templines-team-slider-wrap">
+                            <div class="swiper templines-team-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide team-slider-item team-item">
+                                        <div class="entry-team-slider-content">
+                                            <div class="top-item-content">
+                                                <div class="top-content-wrap">
+                                                    <img src="assets/image/team/team-img-one-min.jpg" width="612" height="640" alt="team-item-img" loading="lazy">
+                                                    <div class="team-social-profiles-wrap">
+                                                        <ul class="social-profiles-items">
+                                                            <li class="social-profile-item fb-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 155.14 155.14" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184   c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452   v20.341H37.29v27.585h23.814v70.761H89.584z" fill="#010002"/></svg></a></li>
+                                                            <li class="social-profile-item instagram-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 409.61 409.61" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="m307.2 0h-204.8c-56.315 0-102.4 46.085-102.4 102.4v204.81c0 56.3 46.085 102.4 102.4 102.4h204.8c56.315 0 102.4-46.1 102.4-102.4v-204.81c0-56.315-46.085-102.4-102.4-102.4zm68.265 307.21c0 37.632-30.612 68.265-68.265 68.265h-204.8c-37.637 0-68.265-30.633-68.265-68.265v-204.81c0-37.642 30.628-68.265 68.265-68.265h204.8c37.653 0 68.265 30.623 68.265 68.265v204.81z"/><circle cx="315.76" cy="93.865" r="25.6"/><path d="m204.8 102.4c-56.566 0-102.4 45.839-102.4 102.4 0 56.54 45.834 102.41 102.4 102.41 56.55 0 102.4-45.87 102.4-102.41 0-56.561-45.85-102.4-102.4-102.4zm0 170.68c-37.699 0-68.265-30.566-68.265-68.275s30.566-68.265 68.265-68.265 68.265 30.556 68.265 68.265-30.566 68.275-68.265 68.275z"/></svg></a></li>
+                                                            <li class="social-profile-item x-link"><a href="#" class="social-profile-link"><svg viewBox="0 0 1226.4 1226.4" xmlns="http://www.w3.org/2000/svg"><path d="m727.35 519.28 446.73-519.28h-105.86l-387.89 450.89-309.81-450.89h-357.33l468.49 681.82-468.49 544.55h105.87l409.62-476.15 327.18 476.15h357.33l-485.86-707.09zm-145 168.54-47.468-67.894-377.69-540.24h162.6l304.8 435.99 47.468 67.894 396.2 566.72h-162.6l-323.31-462.45z"/></svg></a></li>
+                                                            <li class="social-profile-item yt-link"><a href="#" class="social-profile-link"><svg viewBox="0 -62 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m334.81 170.99-113.11-61.891c-6.5039-3.5586-14.191-3.4258-20.566 0.35156-6.3789 3.7812-10.184 10.461-10.184 17.875v122.72c0 7.3789 3.7812 14.047 10.117 17.832 3.3086 1.9766 6.9766 2.9688 10.652 2.9688 3.3672 0 6.7422-0.83203 9.8477-2.5039l113.12-60.824c6.7148-3.6133 10.906-10.594 10.938-18.223 0.027343-7.6289-4.1133-14.641-10.809-18.305zm-113.86 63.617v-91.719l84.539 46.258z"/><path d="m508.23 91.527-0.023437-0.23438c-0.43359-4.1211-4.75-40.777-22.57-59.422-20.598-21.93-43.949-24.594-55.18-25.871-0.92969-0.10547-1.7812-0.20312-2.543-0.30469l-0.89453-0.09375c-67.688-4.9219-169.91-5.5937-170.93-5.5977l-0.089844-0.0039062-0.089844 0.0039062c-1.0234 0.0039062-103.25 0.67578-171.54 5.5977l-0.90234 0.09375c-0.72656 0.097657-1.5273 0.1875-2.3984 0.28906-11.102 1.2812-34.203 3.9492-54.859 26.672-16.973 18.445-21.879 54.316-22.383 58.348l-0.058594 0.52344c-0.15234 1.7148-3.7656 42.539-3.7656 83.523v38.312c0 40.984 3.6133 81.809 3.7656 83.527l0.027344 0.25781c0.43359 4.0547 4.7461 40.039 22.484 58.691 19.367 21.195 43.855 24 57.027 25.508 2.082 0.23828 3.875 0.44141 5.0977 0.65625l1.1836 0.16406c39.082 3.7188 161.62 5.5508 166.81 5.625l0.15625 0.003906 0.15625-0.003906c1.0234-0.003907 103.24-0.67578 170.93-5.5977l0.89453-0.09375c0.85547-0.11328 1.8164-0.21484 2.8711-0.32422 11.039-1.1719 34.016-3.6055 54.387-26.02 16.973-18.449 21.883-54.32 22.383-58.348l0.058594-0.52344c0.15234-1.7188 3.7695-42.539 3.7695-83.523v-38.312c-0.003906-40.984-3.6172-81.805-3.7695-83.523zm-26.238 121.84c0 37.934-3.3125 77-3.625 80.586-1.2734 9.8789-6.4492 32.574-14.719 41.562-12.75 14.027-25.848 15.418-35.41 16.43-1.1562 0.12109-2.2266 0.23828-3.1953 0.35938-65.469 4.7344-163.83 5.4609-168.36 5.4883-5.082-0.074218-125.82-1.9219-163.71-5.4414-1.9414-0.31641-4.0391-0.55859-6.25-0.80859-11.215-1.2852-26.566-3.043-38.371-16.027l-0.27734-0.29688c-8.125-8.4648-13.152-29.688-14.43-41.148-0.23828-2.7109-3.6367-42.238-3.6367-80.703v-38.312c0-37.891 3.3047-76.914 3.625-80.574 1.5195-11.637 6.793-32.957 14.719-41.574 13.141-14.453 26.996-16.055 36.16-17.113 0.875-0.10156 1.6914-0.19531 2.4453-0.29297 66.422-4.7578 165.49-5.4648 169.05-5.4922 3.5547 0.023438 102.59 0.73438 168.42 5.4922 0.80859 0.10156 1.6914 0.20312 2.6406 0.3125 9.4258 1.0742 23.672 2.6992 36.746 16.645l0.12109 0.12891c8.125 8.4648 13.152 30.059 14.43 41.75 0.22656 2.5586 3.6367 42.172 3.6367 80.719z"/></svg></a></li>
+                                                            <li class="social-profile-item in-link"><a href="#" class="social-profile-link"><svg width="512" height="512" enable-background="new 0 0 100 100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"/><path d="m11.3 36.6h16.6v53.4h-16.6z"/><path d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"/></svg></a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-item-content">
+                                                <div class="team-name-wrap">
+                                                    <h5 class="team-name">Grace Thompson</h5>
+                                                </div>
+                                                <div class="team-prof">Real Estate Manager</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide team-slider-item team-item">
+                                        <div class="entry-team-slider-content">
+                                            <div class="top-item-content">
+                                                <div class="top-content-wrap">
+                                                    <img src="assets/image/team/team-img-two-min.jpg" width="612" height="640" alt="team-item-img" loading="lazy">
+                                                    <div class="team-social-profiles-wrap">
+                                                        <ul class="social-profiles-items">
+                                                            <li class="social-profile-item fb-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 155.14 155.14" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184   c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452   v20.341H37.29v27.585h23.814v70.761H89.584z" fill="#010002"/></svg></a></li>
+                                                            <li class="social-profile-item instagram-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 409.61 409.61" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="m307.2 0h-204.8c-56.315 0-102.4 46.085-102.4 102.4v204.81c0 56.3 46.085 102.4 102.4 102.4h204.8c56.315 0 102.4-46.1 102.4-102.4v-204.81c0-56.315-46.085-102.4-102.4-102.4zm68.265 307.21c0 37.632-30.612 68.265-68.265 68.265h-204.8c-37.637 0-68.265-30.633-68.265-68.265v-204.81c0-37.642 30.628-68.265 68.265-68.265h204.8c37.653 0 68.265 30.623 68.265 68.265v204.81z"/><circle cx="315.76" cy="93.865" r="25.6"/><path d="m204.8 102.4c-56.566 0-102.4 45.839-102.4 102.4 0 56.54 45.834 102.41 102.4 102.41 56.55 0 102.4-45.87 102.4-102.41 0-56.561-45.85-102.4-102.4-102.4zm0 170.68c-37.699 0-68.265-30.566-68.265-68.275s30.566-68.265 68.265-68.265 68.265 30.556 68.265 68.265-30.566 68.275-68.265 68.275z"/></svg></a></li>
+                                                            <li class="social-profile-item x-link"><a href="#" class="social-profile-link"><svg viewBox="0 0 1226.4 1226.4" xmlns="http://www.w3.org/2000/svg"><path d="m727.35 519.28 446.73-519.28h-105.86l-387.89 450.89-309.81-450.89h-357.33l468.49 681.82-468.49 544.55h105.87l409.62-476.15 327.18 476.15h357.33l-485.86-707.09zm-145 168.54-47.468-67.894-377.69-540.24h162.6l304.8 435.99 47.468 67.894 396.2 566.72h-162.6l-323.31-462.45z"/></svg></a></li>
+                                                            <li class="social-profile-item yt-link"><a href="#" class="social-profile-link"><svg viewBox="0 -62 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m334.81 170.99-113.11-61.891c-6.5039-3.5586-14.191-3.4258-20.566 0.35156-6.3789 3.7812-10.184 10.461-10.184 17.875v122.72c0 7.3789 3.7812 14.047 10.117 17.832 3.3086 1.9766 6.9766 2.9688 10.652 2.9688 3.3672 0 6.7422-0.83203 9.8477-2.5039l113.12-60.824c6.7148-3.6133 10.906-10.594 10.938-18.223 0.027343-7.6289-4.1133-14.641-10.809-18.305zm-113.86 63.617v-91.719l84.539 46.258z"/><path d="m508.23 91.527-0.023437-0.23438c-0.43359-4.1211-4.75-40.777-22.57-59.422-20.598-21.93-43.949-24.594-55.18-25.871-0.92969-0.10547-1.7812-0.20312-2.543-0.30469l-0.89453-0.09375c-67.688-4.9219-169.91-5.5937-170.93-5.5977l-0.089844-0.0039062-0.089844 0.0039062c-1.0234 0.0039062-103.25 0.67578-171.54 5.5977l-0.90234 0.09375c-0.72656 0.097657-1.5273 0.1875-2.3984 0.28906-11.102 1.2812-34.203 3.9492-54.859 26.672-16.973 18.445-21.879 54.316-22.383 58.348l-0.058594 0.52344c-0.15234 1.7148-3.7656 42.539-3.7656 83.523v38.312c0 40.984 3.6133 81.809 3.7656 83.527l0.027344 0.25781c0.43359 4.0547 4.7461 40.039 22.484 58.691 19.367 21.195 43.855 24 57.027 25.508 2.082 0.23828 3.875 0.44141 5.0977 0.65625l1.1836 0.16406c39.082 3.7188 161.62 5.5508 166.81 5.625l0.15625 0.003906 0.15625-0.003906c1.0234-0.003907 103.24-0.67578 170.93-5.5977l0.89453-0.09375c0.85547-0.11328 1.8164-0.21484 2.8711-0.32422 11.039-1.1719 34.016-3.6055 54.387-26.02 16.973-18.449 21.883-54.32 22.383-58.348l0.058594-0.52344c0.15234-1.7188 3.7695-42.539 3.7695-83.523v-38.312c-0.003906-40.984-3.6172-81.805-3.7695-83.523zm-26.238 121.84c0 37.934-3.3125 77-3.625 80.586-1.2734 9.8789-6.4492 32.574-14.719 41.562-12.75 14.027-25.848 15.418-35.41 16.43-1.1562 0.12109-2.2266 0.23828-3.1953 0.35938-65.469 4.7344-163.83 5.4609-168.36 5.4883-5.082-0.074218-125.82-1.9219-163.71-5.4414-1.9414-0.31641-4.0391-0.55859-6.25-0.80859-11.215-1.2852-26.566-3.043-38.371-16.027l-0.27734-0.29688c-8.125-8.4648-13.152-29.688-14.43-41.148-0.23828-2.7109-3.6367-42.238-3.6367-80.703v-38.312c0-37.891 3.3047-76.914 3.625-80.574 1.5195-11.637 6.793-32.957 14.719-41.574 13.141-14.453 26.996-16.055 36.16-17.113 0.875-0.10156 1.6914-0.19531 2.4453-0.29297 66.422-4.7578 165.49-5.4648 169.05-5.4922 3.5547 0.023438 102.59 0.73438 168.42 5.4922 0.80859 0.10156 1.6914 0.20312 2.6406 0.3125 9.4258 1.0742 23.672 2.6992 36.746 16.645l0.12109 0.12891c8.125 8.4648 13.152 30.059 14.43 41.75 0.22656 2.5586 3.6367 42.172 3.6367 80.719z"/></svg></a></li>
+                                                            <li class="social-profile-item in-link"><a href="#" class="social-profile-link"><svg width="512" height="512" enable-background="new 0 0 100 100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"/><path d="m11.3 36.6h16.6v53.4h-16.6z"/><path d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"/></svg></a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-item-content">
+                                                <div class="team-name-wrap">
+                                                    <h5 class="team-name">Cody Fisher</h5>
+                                                </div>
+                                                <div class="team-prof">Property Developer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide team-slider-item team-item">
+                                        <div class="entry-team-slider-content">
+                                            <div class="top-item-content">
+                                                <div class="top-content-wrap">
+                                                    <img src="assets/image/team/team-img-three-min.jpg" width="612" height="640" alt="team-item-img" loading="lazy">
+                                                    <div class="team-social-profiles-wrap">
+                                                        <ul class="social-profiles-items">
+                                                            <li class="social-profile-item fb-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 155.14 155.14" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184   c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452   v20.341H37.29v27.585h23.814v70.761H89.584z" fill="#010002"/></svg></a></li>
+                                                            <li class="social-profile-item instagram-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 409.61 409.61" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="m307.2 0h-204.8c-56.315 0-102.4 46.085-102.4 102.4v204.81c0 56.3 46.085 102.4 102.4 102.4h204.8c56.315 0 102.4-46.1 102.4-102.4v-204.81c0-56.315-46.085-102.4-102.4-102.4zm68.265 307.21c0 37.632-30.612 68.265-68.265 68.265h-204.8c-37.637 0-68.265-30.633-68.265-68.265v-204.81c0-37.642 30.628-68.265 68.265-68.265h204.8c37.653 0 68.265 30.623 68.265 68.265v204.81z"/><circle cx="315.76" cy="93.865" r="25.6"/><path d="m204.8 102.4c-56.566 0-102.4 45.839-102.4 102.4 0 56.54 45.834 102.41 102.4 102.41 56.55 0 102.4-45.87 102.4-102.41 0-56.561-45.85-102.4-102.4-102.4zm0 170.68c-37.699 0-68.265-30.566-68.265-68.275s30.566-68.265 68.265-68.265 68.265 30.556 68.265 68.265-30.566 68.275-68.265 68.275z"/></svg></a></li>
+                                                            <li class="social-profile-item x-link"><a href="#" class="social-profile-link"><svg viewBox="0 0 1226.4 1226.4" xmlns="http://www.w3.org/2000/svg"><path d="m727.35 519.28 446.73-519.28h-105.86l-387.89 450.89-309.81-450.89h-357.33l468.49 681.82-468.49 544.55h105.87l409.62-476.15 327.18 476.15h357.33l-485.86-707.09zm-145 168.54-47.468-67.894-377.69-540.24h162.6l304.8 435.99 47.468 67.894 396.2 566.72h-162.6l-323.31-462.45z"/></svg></a></li>
+                                                            <li class="social-profile-item yt-link"><a href="#" class="social-profile-link"><svg viewBox="0 -62 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m334.81 170.99-113.11-61.891c-6.5039-3.5586-14.191-3.4258-20.566 0.35156-6.3789 3.7812-10.184 10.461-10.184 17.875v122.72c0 7.3789 3.7812 14.047 10.117 17.832 3.3086 1.9766 6.9766 2.9688 10.652 2.9688 3.3672 0 6.7422-0.83203 9.8477-2.5039l113.12-60.824c6.7148-3.6133 10.906-10.594 10.938-18.223 0.027343-7.6289-4.1133-14.641-10.809-18.305zm-113.86 63.617v-91.719l84.539 46.258z"/><path d="m508.23 91.527-0.023437-0.23438c-0.43359-4.1211-4.75-40.777-22.57-59.422-20.598-21.93-43.949-24.594-55.18-25.871-0.92969-0.10547-1.7812-0.20312-2.543-0.30469l-0.89453-0.09375c-67.688-4.9219-169.91-5.5937-170.93-5.5977l-0.089844-0.0039062-0.089844 0.0039062c-1.0234 0.0039062-103.25 0.67578-171.54 5.5977l-0.90234 0.09375c-0.72656 0.097657-1.5273 0.1875-2.3984 0.28906-11.102 1.2812-34.203 3.9492-54.859 26.672-16.973 18.445-21.879 54.316-22.383 58.348l-0.058594 0.52344c-0.15234 1.7148-3.7656 42.539-3.7656 83.523v38.312c0 40.984 3.6133 81.809 3.7656 83.527l0.027344 0.25781c0.43359 4.0547 4.7461 40.039 22.484 58.691 19.367 21.195 43.855 24 57.027 25.508 2.082 0.23828 3.875 0.44141 5.0977 0.65625l1.1836 0.16406c39.082 3.7188 161.62 5.5508 166.81 5.625l0.15625 0.003906 0.15625-0.003906c1.0234-0.003907 103.24-0.67578 170.93-5.5977l0.89453-0.09375c0.85547-0.11328 1.8164-0.21484 2.8711-0.32422 11.039-1.1719 34.016-3.6055 54.387-26.02 16.973-18.449 21.883-54.32 22.383-58.348l0.058594-0.52344c0.15234-1.7188 3.7695-42.539 3.7695-83.523v-38.312c-0.003906-40.984-3.6172-81.805-3.7695-83.523zm-26.238 121.84c0 37.934-3.3125 77-3.625 80.586-1.2734 9.8789-6.4492 32.574-14.719 41.562-12.75 14.027-25.848 15.418-35.41 16.43-1.1562 0.12109-2.2266 0.23828-3.1953 0.35938-65.469 4.7344-163.83 5.4609-168.36 5.4883-5.082-0.074218-125.82-1.9219-163.71-5.4414-1.9414-0.31641-4.0391-0.55859-6.25-0.80859-11.215-1.2852-26.566-3.043-38.371-16.027l-0.27734-0.29688c-8.125-8.4648-13.152-29.688-14.43-41.148-0.23828-2.7109-3.6367-42.238-3.6367-80.703v-38.312c0-37.891 3.3047-76.914 3.625-80.574 1.5195-11.637 6.793-32.957 14.719-41.574 13.141-14.453 26.996-16.055 36.16-17.113 0.875-0.10156 1.6914-0.19531 2.4453-0.29297 66.422-4.7578 165.49-5.4648 169.05-5.4922 3.5547 0.023438 102.59 0.73438 168.42 5.4922 0.80859 0.10156 1.6914 0.20312 2.6406 0.3125 9.4258 1.0742 23.672 2.6992 36.746 16.645l0.12109 0.12891c8.125 8.4648 13.152 30.059 14.43 41.75 0.22656 2.5586 3.6367 42.172 3.6367 80.719z"/></svg></a></li>
+                                                            <li class="social-profile-item in-link"><a href="#" class="social-profile-link"><svg width="512" height="512" enable-background="new 0 0 100 100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"/><path d="m11.3 36.6h16.6v53.4h-16.6z"/><path d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"/></svg></a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-item-content">
+                                                <div class="team-name-wrap">
+                                                    <h5 class="team-name">Ronald Richards</h5>
+                                                </div>
+                                                <div class="team-prof">Leasing Consultant</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide team-slider-item team-item">
+                                        <div class="entry-team-slider-content">
+                                            <div class="top-item-content">
+                                                <div class="top-content-wrap">
+                                                    <img src="assets/image/team/team-img-four-min.jpg" width="612" height="640" alt="team-item-img" loading="lazy">
+                                                    <div class="team-social-profiles-wrap">
+                                                        <ul class="social-profiles-items">
+                                                            <li class="social-profile-item fb-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 155.14 155.14" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184   c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452   v20.341H37.29v27.585h23.814v70.761H89.584z" fill="#010002"/></svg></a></li>
+                                                            <li class="social-profile-item instagram-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 409.61 409.61" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="m307.2 0h-204.8c-56.315 0-102.4 46.085-102.4 102.4v204.81c0 56.3 46.085 102.4 102.4 102.4h204.8c56.315 0 102.4-46.1 102.4-102.4v-204.81c0-56.315-46.085-102.4-102.4-102.4zm68.265 307.21c0 37.632-30.612 68.265-68.265 68.265h-204.8c-37.637 0-68.265-30.633-68.265-68.265v-204.81c0-37.642 30.628-68.265 68.265-68.265h204.8c37.653 0 68.265 30.623 68.265 68.265v204.81z"/><circle cx="315.76" cy="93.865" r="25.6"/><path d="m204.8 102.4c-56.566 0-102.4 45.839-102.4 102.4 0 56.54 45.834 102.41 102.4 102.41 56.55 0 102.4-45.87 102.4-102.41 0-56.561-45.85-102.4-102.4-102.4zm0 170.68c-37.699 0-68.265-30.566-68.265-68.275s30.566-68.265 68.265-68.265 68.265 30.556 68.265 68.265-30.566 68.275-68.265 68.275z"/></svg></a></li>
+                                                            <li class="social-profile-item x-link"><a href="#" class="social-profile-link"><svg viewBox="0 0 1226.4 1226.4" xmlns="http://www.w3.org/2000/svg"><path d="m727.35 519.28 446.73-519.28h-105.86l-387.89 450.89-309.81-450.89h-357.33l468.49 681.82-468.49 544.55h105.87l409.62-476.15 327.18 476.15h357.33l-485.86-707.09zm-145 168.54-47.468-67.894-377.69-540.24h162.6l304.8 435.99 47.468 67.894 396.2 566.72h-162.6l-323.31-462.45z"/></svg></a></li>
+                                                            <li class="social-profile-item yt-link"><a href="#" class="social-profile-link"><svg viewBox="0 -62 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m334.81 170.99-113.11-61.891c-6.5039-3.5586-14.191-3.4258-20.566 0.35156-6.3789 3.7812-10.184 10.461-10.184 17.875v122.72c0 7.3789 3.7812 14.047 10.117 17.832 3.3086 1.9766 6.9766 2.9688 10.652 2.9688 3.3672 0 6.7422-0.83203 9.8477-2.5039l113.12-60.824c6.7148-3.6133 10.906-10.594 10.938-18.223 0.027343-7.6289-4.1133-14.641-10.809-18.305zm-113.86 63.617v-91.719l84.539 46.258z"/><path d="m508.23 91.527-0.023437-0.23438c-0.43359-4.1211-4.75-40.777-22.57-59.422-20.598-21.93-43.949-24.594-55.18-25.871-0.92969-0.10547-1.7812-0.20312-2.543-0.30469l-0.89453-0.09375c-67.688-4.9219-169.91-5.5937-170.93-5.5977l-0.089844-0.0039062-0.089844 0.0039062c-1.0234 0.0039062-103.25 0.67578-171.54 5.5977l-0.90234 0.09375c-0.72656 0.097657-1.5273 0.1875-2.3984 0.28906-11.102 1.2812-34.203 3.9492-54.859 26.672-16.973 18.445-21.879 54.316-22.383 58.348l-0.058594 0.52344c-0.15234 1.7148-3.7656 42.539-3.7656 83.523v38.312c0 40.984 3.6133 81.809 3.7656 83.527l0.027344 0.25781c0.43359 4.0547 4.7461 40.039 22.484 58.691 19.367 21.195 43.855 24 57.027 25.508 2.082 0.23828 3.875 0.44141 5.0977 0.65625l1.1836 0.16406c39.082 3.7188 161.62 5.5508 166.81 5.625l0.15625 0.003906 0.15625-0.003906c1.0234-0.003907 103.24-0.67578 170.93-5.5977l0.89453-0.09375c0.85547-0.11328 1.8164-0.21484 2.8711-0.32422 11.039-1.1719 34.016-3.6055 54.387-26.02 16.973-18.449 21.883-54.32 22.383-58.348l0.058594-0.52344c0.15234-1.7188 3.7695-42.539 3.7695-83.523v-38.312c-0.003906-40.984-3.6172-81.805-3.7695-83.523zm-26.238 121.84c0 37.934-3.3125 77-3.625 80.586-1.2734 9.8789-6.4492 32.574-14.719 41.562-12.75 14.027-25.848 15.418-35.41 16.43-1.1562 0.12109-2.2266 0.23828-3.1953 0.35938-65.469 4.7344-163.83 5.4609-168.36 5.4883-5.082-0.074218-125.82-1.9219-163.71-5.4414-1.9414-0.31641-4.0391-0.55859-6.25-0.80859-11.215-1.2852-26.566-3.043-38.371-16.027l-0.27734-0.29688c-8.125-8.4648-13.152-29.688-14.43-41.148-0.23828-2.7109-3.6367-42.238-3.6367-80.703v-38.312c0-37.891 3.3047-76.914 3.625-80.574 1.5195-11.637 6.793-32.957 14.719-41.574 13.141-14.453 26.996-16.055 36.16-17.113 0.875-0.10156 1.6914-0.19531 2.4453-0.29297 66.422-4.7578 165.49-5.4648 169.05-5.4922 3.5547 0.023438 102.59 0.73438 168.42 5.4922 0.80859 0.10156 1.6914 0.20312 2.6406 0.3125 9.4258 1.0742 23.672 2.6992 36.746 16.645l0.12109 0.12891c8.125 8.4648 13.152 30.059 14.43 41.75 0.22656 2.5586 3.6367 42.172 3.6367 80.719z"/></svg></a></li>
+                                                            <li class="social-profile-item in-link"><a href="#" class="social-profile-link"><svg width="512" height="512" enable-background="new 0 0 100 100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"/><path d="m11.3 36.6h16.6v53.4h-16.6z"/><path d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"/></svg></a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-item-content">
+                                                <div class="team-name-wrap">
+                                                    <h5 class="team-name">Darlene Robertson</h5>
+                                                </div>
+                                                <div class="team-prof">Marketing Manager</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide team-slider-item team-item">
+                                        <div class="entry-team-slider-content">
+                                            <div class="top-item-content">
+                                                <div class="top-content-wrap">
+                                                    <img src="assets/image/team/team-img-five-min.jpg" width="612" height="640" alt="team-item-img" loading="lazy">
+                                                    <div class="team-social-profiles-wrap">
+                                                        <ul class="social-profiles-items">
+                                                            <li class="social-profile-item fb-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 155.14 155.14" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184   c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452   v20.341H37.29v27.585h23.814v70.761H89.584z" fill="#010002"/></svg></a></li>
+                                                            <li class="social-profile-item instagram-link"><a href="#" class="social-profile-link"><svg version="1.1" viewBox="0 0 409.61 409.61" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="m307.2 0h-204.8c-56.315 0-102.4 46.085-102.4 102.4v204.81c0 56.3 46.085 102.4 102.4 102.4h204.8c56.315 0 102.4-46.1 102.4-102.4v-204.81c0-56.315-46.085-102.4-102.4-102.4zm68.265 307.21c0 37.632-30.612 68.265-68.265 68.265h-204.8c-37.637 0-68.265-30.633-68.265-68.265v-204.81c0-37.642 30.628-68.265 68.265-68.265h204.8c37.653 0 68.265 30.623 68.265 68.265v204.81z"/><circle cx="315.76" cy="93.865" r="25.6"/><path d="m204.8 102.4c-56.566 0-102.4 45.839-102.4 102.4 0 56.54 45.834 102.41 102.4 102.41 56.55 0 102.4-45.87 102.4-102.41 0-56.561-45.85-102.4-102.4-102.4zm0 170.68c-37.699 0-68.265-30.566-68.265-68.275s30.566-68.265 68.265-68.265 68.265 30.556 68.265 68.265-30.566 68.275-68.265 68.275z"/></svg></a></li>
+                                                            <li class="social-profile-item x-link"><a href="#" class="social-profile-link"><svg viewBox="0 0 1226.4 1226.4" xmlns="http://www.w3.org/2000/svg"><path d="m727.35 519.28 446.73-519.28h-105.86l-387.89 450.89-309.81-450.89h-357.33l468.49 681.82-468.49 544.55h105.87l409.62-476.15 327.18 476.15h357.33l-485.86-707.09zm-145 168.54-47.468-67.894-377.69-540.24h162.6l304.8 435.99 47.468 67.894 396.2 566.72h-162.6l-323.31-462.45z"/></svg></a></li>
+                                                            <li class="social-profile-item yt-link"><a href="#" class="social-profile-link"><svg viewBox="0 -62 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m334.81 170.99-113.11-61.891c-6.5039-3.5586-14.191-3.4258-20.566 0.35156-6.3789 3.7812-10.184 10.461-10.184 17.875v122.72c0 7.3789 3.7812 14.047 10.117 17.832 3.3086 1.9766 6.9766 2.9688 10.652 2.9688 3.3672 0 6.7422-0.83203 9.8477-2.5039l113.12-60.824c6.7148-3.6133 10.906-10.594 10.938-18.223 0.027343-7.6289-4.1133-14.641-10.809-18.305zm-113.86 63.617v-91.719l84.539 46.258z"/><path d="m508.23 91.527-0.023437-0.23438c-0.43359-4.1211-4.75-40.777-22.57-59.422-20.598-21.93-43.949-24.594-55.18-25.871-0.92969-0.10547-1.7812-0.20312-2.543-0.30469l-0.89453-0.09375c-67.688-4.9219-169.91-5.5937-170.93-5.5977l-0.089844-0.0039062-0.089844 0.0039062c-1.0234 0.0039062-103.25 0.67578-171.54 5.5977l-0.90234 0.09375c-0.72656 0.097657-1.5273 0.1875-2.3984 0.28906-11.102 1.2812-34.203 3.9492-54.859 26.672-16.973 18.445-21.879 54.316-22.383 58.348l-0.058594 0.52344c-0.15234 1.7148-3.7656 42.539-3.7656 83.523v38.312c0 40.984 3.6133 81.809 3.7656 83.527l0.027344 0.25781c0.43359 4.0547 4.7461 40.039 22.484 58.691 19.367 21.195 43.855 24 57.027 25.508 2.082 0.23828 3.875 0.44141 5.0977 0.65625l1.1836 0.16406c39.082 3.7188 161.62 5.5508 166.81 5.625l0.15625 0.003906 0.15625-0.003906c1.0234-0.003907 103.24-0.67578 170.93-5.5977l0.89453-0.09375c0.85547-0.11328 1.8164-0.21484 2.8711-0.32422 11.039-1.1719 34.016-3.6055 54.387-26.02 16.973-18.449 21.883-54.32 22.383-58.348l0.058594-0.52344c0.15234-1.7188 3.7695-42.539 3.7695-83.523v-38.312c-0.003906-40.984-3.6172-81.805-3.7695-83.523zm-26.238 121.84c0 37.934-3.3125 77-3.625 80.586-1.2734 9.8789-6.4492 32.574-14.719 41.562-12.75 14.027-25.848 15.418-35.41 16.43-1.1562 0.12109-2.2266 0.23828-3.1953 0.35938-65.469 4.7344-163.83 5.4609-168.36 5.4883-5.082-0.074218-125.82-1.9219-163.71-5.4414-1.9414-0.31641-4.0391-0.55859-6.25-0.80859-11.215-1.2852-26.566-3.043-38.371-16.027l-0.27734-0.29688c-8.125-8.4648-13.152-29.688-14.43-41.148-0.23828-2.7109-3.6367-42.238-3.6367-80.703v-38.312c0-37.891 3.3047-76.914 3.625-80.574 1.5195-11.637 6.793-32.957 14.719-41.574 13.141-14.453 26.996-16.055 36.16-17.113 0.875-0.10156 1.6914-0.19531 2.4453-0.29297 66.422-4.7578 165.49-5.4648 169.05-5.4922 3.5547 0.023438 102.59 0.73438 168.42 5.4922 0.80859 0.10156 1.6914 0.20312 2.6406 0.3125 9.4258 1.0742 23.672 2.6992 36.746 16.645l0.12109 0.12891c8.125 8.4648 13.152 30.059 14.43 41.75 0.22656 2.5586 3.6367 42.172 3.6367 80.719z"/></svg></a></li>
+                                                            <li class="social-profile-item in-link"><a href="#" class="social-profile-link"><svg width="512" height="512" enable-background="new 0 0 100 100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"/><path d="m11.3 36.6h16.6v53.4h-16.6z"/><path d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"/></svg></a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-item-content">
+                                                <div class="team-name-wrap">
+                                                    <h5 class="team-name">Marvin McKinney</h5>
+                                                </div>
+                                                <div class="team-prof">Real Estate Manager</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gap-30"></div>
+                            <div class="swiper-pagination-dots team-slider-dots"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap-80 gap-lg-40"></div>
+        </div>
+        <!-- Banner -->
+        <div class="templines-container">
+            <div class="templines-row">
+                <div class="col-12">
+                    <div class="templines-banner-wrapper in-footer-visible">
+                        <div class="templines-row">
+                            <div class="col-1"></div>
+                            <div class="col-5 col-lg-12">
+                                <div class="gap-50 hidden-lg"></div>
+                                <img src="assets/image/site-logo-dark-color.svg" alt="dark-site-logotype-banner" loading="lazy">
+                                <div class="gap-40 gap-lg-30 gap-md-10"></div>
+                                <div class="templines-title-content-wrap">
+                                    <h3 class="templines-title">Getting Started In Commercial Real Estate</h3>
+                                    <div class="templines-after-title-text-content">
+                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.
+                                    </div>
+                                </div>
+                                <div class="gap-30 gap-md-20"></div>
+
+                                <a class="templines-default-btn-style templines-border-dark-btn-style" href="#">
+                                    <div><span data-hover-text=" Contact Us +"> Contact Us +</span></div>
+                                </a>
+
+                                <div class="gap-50 hidden-lg"></div>
+                            </div>
+                            <div class="col-5 hidden-lg">
+                                <img src="assets/image/banner-img-min.png" alt="banner-img" loading="lazy" style="margin-top: -47px;top: 7px;position: relative;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="footer-style-one footer-dark-style">
+            <div class="top-footer-content-wrapper" style="background-image: url('assets/image/footer-bg-img-min.png')">
+                <div class="templines-container">
+                    <div class="templines-row">
+                        <div class="col-5 col-lg-6 col-md-12">
+                            <div class="widget widget_templines_logotype_footer">
+                                <a href="#"><img src="assets/image/logo.png" alt="footer-logotype" loading="lazy" height="200px" width="200px"></a>
+                            </div>
+                            <div id="text-2" class="widget widget_text">
+                                <div class="textwidget">
+                                    <p>When choosing a rental home with us, rest assured that every <br>property is carefully vetted for quality and comfort.</p>
+                                </div>
+                            </div>
+                            <div class="widget widget_templines_contact_info">
+                                <div class="contact-info email-content-info">
+                                    <div class="svg-icon-contact-info"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m20.032 19.995h-16.065c-0.84507-1e-3 -1.6552-0.3372-2.2528-0.9347-0.59756-0.5976-0.9337-1.4077-0.93469-2.2528v-9.615c9.92e-4 -0.84507 0.33713-1.6552 0.93469-2.2528 0.59756-0.59756 1.4077-0.9337 2.2528-0.9347h16.065c0.8451 1e-3 1.6552 0.33714 2.2528 0.9347 0.5976 0.59755 0.9337 1.4077 0.9347 2.2528v9.615c-1e-3 0.8451-0.3371 1.6552-0.9347 2.2528-0.5976 0.5975-1.4077 0.9337-2.2528 0.9347zm-16.065-14.865c-0.54701 0-1.0716 0.2173-1.4584 0.60409-0.38679 0.3868-0.60409 0.9114-0.60409 1.4584v9.615c0 0.547 0.2173 1.0716 0.60409 1.4584s0.9114 0.6041 1.4584 0.6041h16.065c0.547 0 1.0716-0.2173 1.4584-0.6041s0.6041-0.9114 0.6041-1.4584v-9.615c0-0.54701-0.2173-1.0716-0.6041-1.4584-0.3868-0.38679-0.9114-0.60409-1.4584-0.60409h-16.065z" /><path d="m12 14.28c-0.6939 0.0011-1.3693-0.224-1.9237-0.6412l-8.7563-6.6225c-0.06186-0.04342-0.11434-0.09887-0.15431-0.16302-0.03996-0.06416-0.06658-0.13571-0.07827-0.21038-0.0117-0.07467-0.00822-0.15094 0.01021-0.22424 0.01844-0.0733 0.05146-0.14213 0.09709-0.20238 0.04564-0.06026 0.10294-0.1107 0.1685-0.14831s0.13803-0.06163 0.21308-0.07061c0.07504-0.00898 0.15113-0.00275 0.22372 0.01833 0.07258 0.02108 0.14017 0.05657 0.19873 0.10436l8.7562 6.63c0.3596 0.2685 0.7963 0.4135 1.245 0.4135s0.8854-0.145 1.245-0.4135l8.7563-6.63c0.0585-0.04779 0.1261-0.08328 0.1987-0.10436s0.1487-0.02731 0.2237-0.01833c0.0751 0.00898 0.1475 0.033 0.2131 0.07061 0.0655 0.03761 0.1229 0.08805 0.1685 0.14831 0.0456 0.06025 0.0786 0.12908 0.0971 0.20238 0.0184 0.0733 0.0219 0.14957 0.0102 0.22424s-0.0383 0.14622-0.0783 0.21038c-0.0399 0.06415-0.0924 0.1196-0.1543 0.16302l-8.7562 6.6225c-0.5545 0.4172-1.2299 0.6423-1.9238 0.6412z" /><path d="m1.5638 18.428c-0.11408 2e-4 -0.22552-0.0343-0.31953-0.099-0.094-0.0646-0.16613-0.1563-0.20681-0.2629-0.040686-0.1066-0.047996-0.223-0.02097-0.3338 0.02704-0.1109 0.08713-0.2109 0.17231-0.2868l6.9-6.1537c0.11139-0.0995 0.25773-0.1506 0.40682-0.1422 0.14909 0.0085 0.28873 0.0758 0.38818 0.1872 0.09946 0.1114 0.15059 0.2577 0.14215 0.4068s-0.07576 0.2887-0.18715 0.3882l-6.9 6.1537c-0.10247 0.0933-0.23647 0.1442-0.375 0.1425zm20.873 0c-0.1386 0.0017-0.2726-0.0492-0.375-0.1425l-6.9-6.1537c-0.1114-0.0995-0.1788-0.2391-0.1872-0.3882s0.0427-0.2954 0.1422-0.4068c0.0994-0.1114 0.239-0.1787 0.3881-0.1872 0.1491-0.0084 0.2955 0.0427 0.4069 0.1422l6.8962 6.1537c0.0852 0.0759 0.1453 0.1759 0.1723 0.2868 0.027 0.1108 0.0197 0.2272-0.0209 0.3338-0.0407 0.1066-0.1129 0.1983-0.2069 0.2629-0.094 0.0647-0.2054 0.0992-0.3195 0.099h0.0038z"/></svg></div>
+                                    <div class="contact-info-link-wrap">
+                                        <a href="mailto:example@tostate.com">example@tostate.com</a>
+                                        <a href="mailto:contact@tostate.com">Contact@tostate.com</a>
+                                    </div>
+                                </div>
+                                <div class="contact-info phone-content-info">
+                                    <div class="svg-icon-contact-info"><svg viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg"><path d="m2.4045 12.016c0.876 1.9401 2.3679 4.0419 4.0929 5.7669 1.8399 1.8399 3.8697 3.297 5.7156 4.1022 1.005 0.4386 1.9041 0.6579 2.661 0.6579 0.7524 0 1.3641-0.2172 1.7982-0.6516l1.7412-1.7406c0.5289-0.5295 0.4815-1.4379-0.1059-2.0256l-2.5656-2.5659c-0.588-0.5874-1.497-0.6345-2.0256-0.1056l-0.7989 0.7989c-0.2214 0.1656-1.5897-0.2559-3.129-1.7952-1.5402-1.5399-1.9626-2.9091-1.7961-3.1284l0.7998-0.7998c0.5289-0.5292 0.4815-1.4382-0.1059-2.0256l-2.5662-2.5656c-0.588-0.5874-1.4964-0.6351-2.0256-0.1056l-1.7406 1.7406c-0.8691 0.8688-0.8511 2.4468 0.0504 4.443h3e-4zm0.798-3.5946 1.7409-1.7406c0.012-0.012 0.036-0.0192 0.0669-0.0192 0.0678 0 0.1707 0.0339 0.2616 0.1248l2.5656 2.5656c0.1326 0.1326 0.144 0.2907 0.10591 0.3288l-0.79981 0.79948c-0.99419 0.9948 0.1509 3.1803 1.7961 4.8255 0.8193 0.819 1.7202 1.4736 2.5368 1.8423 1.344 0.6072 2.0109 0.2316 2.2884-0.0465l0.7998-0.7995c0.0384-0.0384 0.1959-0.0267 0.3288 0.1056l2.5653 2.5659c0.1326 0.1326 0.144 0.2904 0.1059 0.3285l-1.7409 1.7409c-0.483 0.4833-1.6533 0.387-3.1308-0.258-1.7118-0.7467-3.6108-2.1144-5.3472-3.8505-1.6266-1.6266-3.0288-3.5997-3.8478-5.4126-0.6618-1.4649-0.7725-2.6238-0.2958-3.1005h3e-4zm19.086 4.9245c0-6.507-5.2941-11.801-11.801-11.801v1.2c5.8455 0 10.601 4.7559 10.601 10.601h1.2z" /><path d="m10.71 4.8223v1.2c4.161 0 7.5465 3.3852 7.5465 7.5462h1.2c0-4.8228-3.924-8.7462-8.7465-8.7462z" /><path d="m15.202 13.569h1.2c0-3.138-2.553-5.6916-5.6913-5.6916v1.2c2.4765 0 4.4913 2.0152 4.4913 4.4916z"/></svg></div>
+                                    <div class="contact-info-link-wrap">
+                                        <a href="tel:+88 55344 - 251122">+88 55344 - 251122</a>
+                                    </div>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="gap-md-30"></div>
+                        </div>
+                        <div class="col-3 col-lg-6 col-md-12">
+                            <div class="widget widget_nav_menu">
+                                <h5 class="widget--title">Our Services</h5>
+                                <ul class="menu">
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Apartment for Rent</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Apartment Low to Hide</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Offices for Buy</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Office for Rent</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Faqs</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2 col-lg-6 col-md-12">
+                            <div class="widget widget_nav_menu">
+                                <h5 class="widget--title">Company</h5>
+                                <ul class="menu">
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Blog</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">About Us</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Our Consultants</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Real Estate</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2 col-lg-6 col-md-12">
+                            <div class="widget widget_nav_menu">
+                                <h5 class="widget--title">Other Links</h5>
+                                <ul class="menu">
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Careers</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Real Estate</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Pricing Plans</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Marketing</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Design services</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer-content-wrapper">
+                <div class="templines-container">
+                    <div class="templines-row">
+                        <div class="col-6 col-lg-12">
+                            <div class="footer-copirate-content text-lg-center">Copyright: © 2024 by <a href="#">Tostate</a>. All Rights Reserved.</div>
+                        </div>
+                        <div class="col-6 text-right col-lg-12 hidden-lg">
+                            <div class="widget widget_nav_menu">
+                                <ul class="menu">
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Home</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Listing Real Estat</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Property for Rent</a>
+                                    </li>
+                                    <li class="nav-item menu-item-depth-0 ">
+                                        <a href="#" class="menu-link main-menu-link item-title">Office For Sell</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Mobile menu -->
+        <div class="fl-mobile-menu-wrapper">
+            <!--Sidebar Overlay Start-->
+            <div class="fl-sidebar-overlay fl--mobile-menu-icon"></div>
+            <!--Sidebar Overlay End-->
+            <div class="fl-nav-container">
+                <!--Mobile Nav menu Wrapper Start-->
+                <div class="fl--mobile-menu-navigation-wrapper">
+                    <div class="fl-close-sidebar-icon fl--mobile-menu-icon closed"></div>
+                    <!--Mobile Nav menu Start-->
+                    <nav class="fl--mobile-menu-navigation cf">
+                        <ul id="menu-hamburger-and-mobile-menu" class="fl--mobile-menu">
+                            <li class="nav-item menu-item-depth-0 current-menu-ancestor current-menu-parent has-submenu">
+                                <a href="#" class="menu-link main-menu-link item-title">Home</a>
+                                <div class="sub-nav">
+                                    <ul class="menu-depth-1 sub-menu sub-nav-group">
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="home-page.html" class="menu-link sub-menu-link">Home page style one</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="home-page-two.html" class="menu-link sub-menu-link">Home page style two</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="home-page-three.html" class="menu-link sub-menu-link">Home page style three</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="home-page-four.html" class="menu-link sub-menu-link">Home page style four</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item menu-item-depth-0 current-menu-ancestor current-menu-parent has-submenu">
+                                <a href="#" class="menu-link main-menu-link item-title">Property</a>
+                                <div class="sub-nav">
+                                    <ul class="menu-depth-1 sub-menu sub-nav-group">
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-property-listing-list-style-sidebar.html" class="menu-link sub-menu-link">Property list with sidebar</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-property-listing-sidebar.html" class="menu-link sub-menu-link">Property grid with sidebar</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-property-listing.html" class="menu-link sub-menu-link">Property grid without sidebar</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-property-single.html" class="menu-link sub-menu-link">Property single</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item menu-item-depth-0 current-menu-ancestor current-menu-parent has-submenu">
+                                <a href="#" class="menu-link main-menu-link item-title">Pages</a>
+                                <div class="sub-nav">
+                                    <ul class="menu-depth-1 sub-menu sub-nav-group">
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-testimonial.html" class="menu-link sub-menu-link">Testimonial page</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-gallery.html" class="menu-link sub-menu-link">Gallery page</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-team.html" class="menu-link sub-menu-link">Team page</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-about.html" class="menu-link sub-menu-link">About page</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-faq.html" class="menu-link sub-menu-link">FAQ page</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item menu-item-depth-0 current-menu-ancestor current-menu-parent has-submenu">
+                                <a href="#" class="menu-link main-menu-link item-title">Blog</a>
+                                <div class="sub-nav">
+                                    <ul class="menu-depth-1 sub-menu sub-nav-group">
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-blog-grid-sidebar.html" class="menu-link sub-menu-link">Blog grid with sidebar</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-blog-grid.html" class="menu-link sub-menu-link">Blog grid without sidebar</a>
+                                        </li>
+                                        <li class="sub-nav-item menu-item-depth-1">
+                                            <a href="page-blog-inner-sidebar.html" class="menu-link sub-menu-link">Blog single</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item menu-item-depth-0">
+                                <a href="page-contact.html" class="menu-link main-menu-link item-title">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--Mobile Nav menu End-->
+                </div>
+                <!--Mobile Nav menu Wrapper End-->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

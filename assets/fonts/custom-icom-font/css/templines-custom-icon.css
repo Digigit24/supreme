@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "templines-custom-icon";
+  src: url("../font/templines-custom-icon.eot?97504699");
+  src: url("../font/templines-custom-icon.eot?97504699#iefix")
+      format("embedded-opentype"),
+    url("../font/templines-custom-icon.woff2?97504699") format("woff2"),
+    url("../font/templines-custom-icon.woff?97504699") format("woff"),
+    url("../font/templines-custom-icon.ttf?97504699") format("truetype"),
+    url("../font/templines-custom-icon.svg?97504699#templines-custom-icon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'templines-custom-icon';
+    src: url('../font/templines-custom-icon.svg?97504699#templines-custom-icon') format('svg');
+  }
+}
+*/
+[class^="templines-custom-icon-"]:before,
+[class*=" templines-custom-icon-"]:before {
+  font-family: "templines-custom-icon";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.templines-custom-icon-star-filled:before {
+  content: "\e800";
+} /* '' */
+.templines-custom-icon-star:before {
+  content: "\e801";
+} /* '' */
+.templines-custom-icon-play-buttton:before {
+  content: "\e802";
+} /* '' */
+.templines-custom-icon-quote-one:before {
+  content: "\e803";
+} /* '' */
+.templines-custom-icon-play:before {
+  content: "\e804";
+} /* '' */
+.templines-custom-icon-quote:before {
+  content: "\e805";
+} /* '' */
+.templines-custom-icon-quote-icon:before {
+  content: "\e806";
+} /* '' */
+.templines-custom-icon-straight-quotes:before {
+  content: "\e808";
+} /* '' */
