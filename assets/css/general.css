@@ -3939,6 +3939,7 @@ h6 {
   text-transform: uppercase;
   margin-bottom: 0.3125rem;
   color: var(--primary-color);
+  font-weight: bold;
 }
 .templines-title-content-wrap .templines-title {
   margin-bottom: 0.9375rem;
